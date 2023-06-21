@@ -74,6 +74,10 @@ function sendMail(){
 function showSlides(n){
   var activeProjectsContainer = document.getElementsByClassName('container active test');
   var projectsContainer = document.getElementById("container"+n);
+  var projectDot = document.getElementById("dot"+n);
+  var activeDot = document.getElementsByClassName("project-dot active");
+  activeDot[0].classList.remove("active");
+  projectDot.classList.add("active");
   activeProjectsContainer[0].classList.remove("active")
   projectsContainer.classList.add("active");
 }
