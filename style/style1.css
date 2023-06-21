@@ -773,19 +773,16 @@ img{
     background-image: url('../img/Project4.JPG');
 }
 #projects .project5{
-    background-image: url('../img/photo1.png');
+    background-image: url('../img/Project5.JPG');
 }
 #projects .project6{
-    background-image: url('../img/photo1.png');
+    background-image: url('../img/Project6.png');
 }
 #projects .project7{
-    background-image: url('../img/photo1.png');
+    background-image: url('../img/Project7.JPG');
 }
-#projects .project8{
-    background-image: url('../img/photo1.png');
-}
-#projects .project9{
-    background-image: url('../img/DSC_0739.JPG');
+#projects .project8, #projects .project9, #projects .project10, #projects .project11, #projects .project12{
+    background-image: url('../img/project.jpg');
 }
 
 #projects .project:hover{
