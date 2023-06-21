@@ -156,6 +156,12 @@ img{
     width: 40px;
     cursor: pointer;
     padding: 15px 50px;
+    transition: 1s;
+}
+
+.logo:hover{
+    transition: 1s;
+    transform: scale(1.2);
 }
 
 /* Navbar Start */
@@ -565,6 +571,7 @@ img{
     justify-content: center;
     color: white;
     background-color:#272A33;
+    transition: 0.5s;
     margin: 10px 20px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 12px 8px rgba(0,0,0,0.3); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 12px 8px rgba(0,0,0,0.3);
@@ -728,12 +735,16 @@ img{
     text-transform: uppercase;
 }
 
-#projects .projects .container{
+#projects .projects .container.active{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 20px;
     flex-wrap: wrap;
+}
+
+#projects .projects .container {
+    display: none;
 }
 
 #projects .project{
@@ -745,6 +756,7 @@ img{
     position: relative;
     margin: 10px 20px;
     border-radius: 8px;
+    transition: 1s;
 }
 
 #projects .project1{
@@ -759,7 +771,21 @@ img{
 #projects .project4{
     background-image: url('../img/Project4.JPG');
 }
-
+#projects .project5{
+    background-image: url('../img/photo1.png');
+}
+#projects .project6{
+    background-image: url('../img/photo1.png');
+}
+#projects .project7{
+    background-image: url('../img/photo1.png');
+}
+#projects .project8{
+    background-image: url('../img/photo1.png');
+}
+#projects .project9{
+    background-image: url('../img/DSC_0739.JPG');
+}
 
 #projects .project:hover{
     transition: 1s;
@@ -1112,10 +1138,16 @@ footer .container div:last-child p{
         min-height: 80vh;
     }
     
-    #projects .projects .container{
+    #projects .projects .container.active{
         display: flex;
         flex-direction: column;
     }
+
+    #projects .projects .container {
+        display: none;
+    }
+
+
     #projects .project{
         margin-left: 0;
         width: 80%;

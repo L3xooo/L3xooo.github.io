@@ -58,3 +58,22 @@ window.onscroll = () => {
     }
   });
 };
+
+function sendMail(){
+   var params = {
+      name: document.getElementById("name").value,
+      email: document.getElementById("email").value,
+      subject: document.getElementById("subject").value,
+      message: document.getElementById("message").value,
+  }; 
+
+  emailjs.send("service_w0cs0x2","template_yt1t0m8",params);
+  alert("Email sent!")
+}
+
+function showSlides(n){
+  var activeProjectsContainer = document.getElementsByClassName('container active test');
+  var projectsContainer = document.getElementById("container"+n);
+  activeProjectsContainer[0].classList.remove("active")
+  projectsContainer.classList.add("active");
+}

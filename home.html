@@ -9,14 +9,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/fgb4zge.css">
-<script src="https://kit.fontawesome.com/ded1e0c83c.js" crossorigin="anonymous"></script>   
+<script src="https://kit.fontawesome.com/ded1e0c83c.js" crossorigin="anonymous"></script>  
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("yn2m3lj3dALfo2nM4");
+   })();
+</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
 </head>
 <body>
     <section id = "home">
         <div class="navbar">
             <div class = "container">
-                <img src = "img/logo.png" class = "logo">
+                <a href = "#home" ><img src = "img/logo.png" class = "logo"></a>
                 <div class = "nav-links"> 
                     <ul>
                         <li><a class = "nav-link active" href = "#home">Home</a></li>
@@ -228,17 +236,16 @@
         <div class = "container reveal">
             <h1>Projects</h1>
             <div class="projects">
-                <div class="container">
+                <div class="container active test" id = "container1">
                     <h1 class = "background-text">Projects</h1>
                     <div class = "project project1">
                         <div class="layer">
                             <h4>Chat App</h4>
                             <h6>Python ,Django, JavaScript, CSS, HTML</h6>
                             <p>
-                            The passage experienced a surge in popularity during
-                            the 1960s when Letraset used it on the
+                            Chat web aplication, with backend in Python Django and frontend CSS, HTML and JavaScript.
                             </p>
-                            <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                            <a href = "https://github.com/L3xooo/StudyApp"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
                         </div>
                     </div>
                     <div class = "project project2">
@@ -246,21 +253,19 @@
                             <h4>Quiz App</h4>
                             <h6>Python, Django, JavaScript, CSS, HTML</h6>
                             <p>
-                            The passage experienced a surge in popularity during
-                            the 1960s when Letraset used it on the
+                            Quiz web aplication which randomly generate questions from REST API.
                             </p>
-                            <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                            <a href = "https://github.com/L3xooo/QuizApp"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
                         </div>
                     </div>
                     <div class = "project project3">
                         <div class="layer">
                             <h4>WaterPipes Game</h4>
-                            <h6>Java</h6>
+                            <h6>Java, Swing</h6>
                             <p>
-                            The passage experienced a surge in popularity during
-                            the 1960s when Letraset used it on the
+                            WaterPipes game designed in Swing as school project.
                             </p>
-                            <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                            <a href = "https://github.com/L3xooo/WaterPipesGame"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
                         </div>
                     </div>
                     <div class = "project project4">
@@ -268,15 +273,102 @@
                             <h4>Portfolio</h4>
                             <h6>JavaScript, CSS, HTML</h6>
                             <p>
-                            The passage experienced a surge in popularity during
-                            the 1960s when Letraset used it on the
+                            Portfolio project about myself, coded via HTML, CSS and JavaScript.
                             </p>
-                            <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                            <a href = "https://github.com/L3xooo/Portfolio"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
                         </div>
                     </div>
+                </div> 
+                <div class="container test" id = "container2"> 
+                    <div class = "project project5">
+                        <div class="layer">
+                            <h4>Chat App</h4>
+                            <h6>Python ,Django, JavaScript, CSS, HTML</h6>
+                            <p>
+                            Chat web aplication, with backend in Python Django and frontend CSS, HTML and JavaScript.
+                            </p>
+                            <a href = "https://github.com/L3xooo/StudyApp"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class = "project project6">
+                        <div class="layer">
+                            <h4>Quiz App</h4>
+                            <h6>Python, Django, JavaScript, CSS, HTML</h6>
+                            <p>
+                            Quiz web aplication which randomly generate questions from REST API.
+                            </p>
+                            <a href = "https://github.com/L3xooo/QuizApp"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class = "project project7">
+                        <div class="layer">
+                            <h4>WaterPipes Game</h4>
+                            <h6>Java, Swing</h6>
+                            <p>
+                            WaterPipes game designed in Swing as school project.
+                            </p>
+                            <a href = "https://github.com/L3xooo/WaterPipesGame"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class = "project project8">
+                        <div class="layer">
+                            <h4>Portfolio</h4>
+                            <h6>JavaScript, CSS, HTML</h6>
+                            <p>
+                            Portfolio project about myself, coded via HTML, CSS and JavaScript.
+                            </p>
+                            <a href = "https://github.com/L3xooo/Portfolio"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="container test" id = "container3"> 
+                    <div class = "project project9">
+                        <div class="layer">
+                            <h4>Chat App</h4>
+                            <h6>Python ,Django, JavaScript, CSS, HTML</h6>
+                            <p>
+                            Chat web aplication, with backend in Python Django and frontend CSS, HTML and JavaScript.
+                            </p>
+                            <a href = "https://github.com/L3xooo/StudyApp"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class = "project project9">
+                        <div class="layer">
+                            <h4>Quiz App</h4>
+                            <h6>Python, Django, JavaScript, CSS, HTML</h6>
+                            <p>
+                            Quiz web aplication which randomly generate questions from REST API.
+                            </p>
+                            <a href = "https://github.com/L3xooo/QuizApp"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class = "project project9">
+                        <div class="layer">
+                            <h4>WaterPipes Game</h4>
+                            <h6>Java, Swing</h6>
+                            <p>
+                            WaterPipes game designed in Swing as school project.
+                            </p>
+                            <a href = "https://github.com/L3xooo/WaterPipesGame"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div>
+                    <div class = "project project9">
+                        <div class="layer">
+                            <h4>Portfolio</h4>
+                            <h6>JavaScript, CSS, HTML</h6>
+                            <p>
+                            Portfolio project about myself, coded via HTML, CSS and JavaScript.
+                            </p>
+                            <a href = "https://github.com/L3xooo/Portfolio"><i class="fa-solid fa-arrow-up-right-from-square fa-xl"></i></a>
+                        </div>
+                    </div> 
                 </div>
             </div>
-            <button class = "btn" type = "submit">Show more</button>
+            <div style="text-align:center">
+                <span class="dot" onclick="showSlides(1)"></span> 
+                <span class="dot" onclick="showSlides(2)"></span> 
+                <span class="dot" onclick="showSlides(3)"></span> 
+            </div>
         </div>
     </section>
     <section id = "contact">
@@ -312,16 +404,18 @@
             <div class = "line"></div> 
             <div class="forms">
                 <div class="container">
-                    <div>
-                    <input type="text" id = "name" name = "name" placeholder = "Name"></div>
-                    <div>  
-                    <input type="email" id = "email" name = "email" placeholder="Email"></div>  
-                    <div>   
-                    <input type="text" id = "subject" name = "subject" placeholder="Subject"></div>
-                    <div>    
-                    <textarea  type="text" id = "email" name = "email" placeholder="Your message"></textarea>
-                    </div>
-                    <button class = "btn" type = "submit">Submit</button>
+                    <form>
+                        <div>
+                        <input type="text" id = "name" name = "name" placeholder = "Name" required></div>
+                        <div>  
+                        <input type="email" id = "email" name = "email" placeholder="Email" required></div>  
+                        <div>   
+                        <input type="text" id = "subject" name = "subject" placeholder="Subject" required></div>
+                        <div>    
+                        <textarea type="text" id = "message" name = "message" placeholder="Your message" required></textarea>
+                        </div>
+                        <button class = "btn" type = "submit" onclick="sendMail()">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>      
@@ -341,8 +435,8 @@
             <div class = "social">
                 <a href = #><i class="fa-brands fa-instagram fa-xl"></i></a>
                 <a href = #><i class="fa-brands fa-facebook fa-xl"></i></a>
-                <a href = #><i class="fa-brands fa-discord fa-xl"></i></a>
-                <a href = #><i class="fa-brands fa-github fa-xl"></i></a>
+                <a href = "https://discordapp.com/users/205682715754889217" ><i class="fa-brands fa-discord fa-xl"></i></a>
+                <a href = "https://github.com/L3xooo"><i class="fa-brands fa-github fa-xl"></i></a>
             </div>
             <div>
                 <p>Designed by Peter Likavec 2022</p>
@@ -350,4 +444,5 @@
         </div>
     </footer>
 </body>
+
 </html>
